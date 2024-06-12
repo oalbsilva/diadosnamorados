@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+
+    <script
+        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+
+
+    <title>Elaine! Feliz dia dos Namorados!</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <script src="https://www.mattboldt.com/demos/typed-js/js/typed.custom.js"></script>
+
+
+    <script>
+        $(function () {
+            $('.animate-text').typed({
+                strings: [
+                    "Oi Pequena!! <3",
+                    "Antes de te dar o presente...",
+                    "Queria te falar o quanto você é importante para mim!",
+                    "Mesmo a pouco tempo junto...",
+                    "As fotos ali encima mostram o quanto a gente agrega um ao outro...",
+                    "E também mostram que a gente precisa tirar mais foto junto né? haha",
+                    "Feliz dia dos namorados!!! Eu te Amo!!",
+                    "Infelizmente o seu presente não chegou a tempo =(",
+                    "Mas acho que seu pai realmente vai prescisar cancelar a Wine... x.x",
+                ],
+                typeSpeed: 0,
+                backSpeed: 0,
+                backDelay: 3500,
+                loop: true
+            });
+        });
+
+        window.setTimeout(function () {
+            window.location.href = "./wine.html";
+
+        }, 60000);
+
+
+    </script>
+
+
+
+</head>
+
+<body translate="no">
+    <div id="banner">
+        <div><img src="./img/5.jpg"></div>
+        <div><img src="./img/4.jpg"></div>
+        <div><img src="./img/3.jpg"></div>
+        <div><img src="./img/1.jpg"></div>
+        <div><img src="./img/2.jpg"></div>
+    </div>
+
+    <div class="console">
+        <div class="title-bar"></div>
+        <div class="main-window">
+            <div class="cool-text">
+                $
+                <span class="animate-text"></span>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

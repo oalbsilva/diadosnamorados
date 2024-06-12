@@ -18,7 +18,7 @@ love_btns.forEach(love_btn => {
 		love_btn.querySelector('.text').innerHTML = 'Clique mais vezes!!';
     clicks++;
 
-    if(clicks > 2) {
+    if(clicks > 40) {
 		window.location.href = "./pictures.html";
     }
 	});
